@@ -24,6 +24,7 @@
 ## 目录
 
 ```
+USAGE.md                      怎么用：三种用法、第一次的流程、常见问题
 SKILL.md                      主文件：开工四样、五条铁律、画风锁、运镜、表演、检查表
 references/
 ├── 01-五条铁律.md             Assets first / Describe everything / Change one thing / Less freedom / Simplify the shot
@@ -42,14 +43,15 @@ examples/
 
 ## 怎么用
 
-**当 skill 用**（Claude Code / Cursor / DSH 等能读 SKILL.md 的 agent）：
+**三种用法**，详见 [`USAGE.md`](./USAGE.md)：
 
-```bash
-git clone https://github.com/<you>/gufeng-wuxia-ai-film.git
-cp -r gufeng-wuxia-ai-film ~/.dsh/skills/     # 或你的 skills 目录
-```
+| 用法 | 一句话 |
+|---|---|
+| **当 skill 装** | `cp -r gufeng-wuxia-ai-film ~/.dsh/skills/`，之后说到"古装短片""分镜提示词"会自动加载 |
+| **当手册读** | 先读 `SKILL.md` → 再读 `07-失败档案.md` → 再读 `03` 和 `05` |
+| **当团队规范** | 把 `references/` 拆进你们自己的项目文档（`01-画风锁` 和 `05-失败档案` 全组共用） |
 
-**当手册用**：直接读 `SKILL.md`，它就是一篇完整的方法论。
+**第一次做一部片子的流程、常见问题、和项目文档怎么分工** —— 全在 [`USAGE.md`](./USAGE.md) 里。
 
 ---
 
