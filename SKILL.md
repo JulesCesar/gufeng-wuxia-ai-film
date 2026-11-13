@@ -7,7 +7,7 @@ metadata:
   version: "1.0.0"
   language: zh-CN
   category: film-production
-  source: 从《武松·行者》50 镜实战中提炼；方法论层参考 Higgsfield HELL GRIND 开源管线的五条铁律与 acting/CINEDANCE 文档
+  source: 从一部古装短片 50 镜的实战中提炼；方法论层参考 Higgsfield HELL GRIND 开源管线的五条铁律与 acting/CINEDANCE 文档
 ---
 
 # 古装武侠 AI 短片生产方法
